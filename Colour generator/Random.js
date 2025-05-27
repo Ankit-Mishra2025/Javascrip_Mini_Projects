@@ -8,6 +8,8 @@ let container=document.querySelector(".container")
 
 const colorArray=["Red","Green","White","Black","Cyan","Tomato","Yellow","Blue","LightGreen","Orange"]
 
+
+
 const changeColor=(color)=>{
     container.style.backgroundColor=color;
     currentColorValue.innerText=color;
