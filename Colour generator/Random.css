@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html,body{
+height: 100vh;
+background-color: rgb(149, 206, 255);
+width: 100vh;
+
+}
+.container{
+height: 100vh;
+width: 100vw;
+text-align: center;
+padding: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.inputBtnContainer{
+    margin: 20px;
+}
+
+.heading{
+    background-color: rgb(214, 214, 192);
+    width:50vw;
+}
+
+button{
+    background-color: lightseagreen;
+    padding: 10px ;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+#colorInput{
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 245, 245);
+    
+}
+
+.currentColor{
+    background-color: aliceblue;
+    padding: 10px;
+    font-weight: 500;
+
+}
